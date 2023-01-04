@@ -103,8 +103,8 @@ h3 {
 /* Botão */
 
 button {
-    background-color: #f7dee9;
-    color: #aa5379;
+        background-color: rgba(187, 70, 162, 0.8);
+    color: #1f0711;
     border: 2px solid;
     border-radius: 8px;
     display: block;
