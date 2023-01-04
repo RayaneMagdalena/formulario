@@ -103,8 +103,8 @@ h3 {
 /* Botão */
 
 button {
-    background-color: #75d464;
-    color: #26571d;
+    background-color: #f7dee9;
+    color: #aa5379;
     border: 2px solid;
     border-radius: 8px;
     display: block;
@@ -117,8 +117,8 @@ button {
 }
 
 button:hover {
-    border-color: #c8ffbe;
-    color: #d2ffca;
+    border-color: #fae6ef;
+    color: #f7dee9;
     transform: translateY(-0.25em);
     cursor: pointer;
 }
