@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de animais</title>
+    <link rel="stylesheet" href="formulário.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header id="título">
+        <h1>CADASTRO DE ANIMAIS</h1>
+        <h2>Insira seus dados</h2>
+    </header>
+
+    <main>
+        <fieldset>
+            <form>
+                <h3>Dados do Animal</h3>
+                <div class="campo">
+                    <label for="animal">Nome do Pet:</label>
+                    <input type="text" id="animal" name="animal" required>
+                </div>
+                
+                <div class="campo">
+                    <label for="tipo">Tipo:</label>
+                    <select name="tipo" id="tipo" required>
+                        <option value="">Selecione</option>
+                        <option value="Cachorro">Cachorro</option>
+                        <option value="Gato">Gato</option>
+                        <option value="Aquático">Aquático</option>
+                        <option value="Aves">Aves</option>
+                        <option value="Roedor">Roedor</option>
+                        <option value="Réptil">Réptil</option>
+                        <option value="Eqüino">Eqüino</option>
+                        <option value="Outros">Outros</option>
+                    </select>
+                </div>
+                <div class="campo">
+                    <label for="nascimento_pet">Data de nascimento:</label>
+                    <input type="date" name="nascimento_pet" id="nascimento_pet" required>
+                </div class="campo">
+
+                <div class="campo">
+                    <span>Porte:</span>
+                    <input type="radio" name="porte" id="Pequeno" value="Pequeno" checked>
+                    <label for="Pequeno">Pequeno</label>
+                    <input type="radio" name="porte" id="Médio" value="Médio">
+                    <label for="Médio">Médio</label>
+                    <input type="radio" name="porte" id="Grande" value="Grande">
+                    <label for="Grande">Grande</label>
+                </div>
+
+                <div class="campo">
+                    <label for="raça">Raça:</label>
+                    <input type="text" name="raça" id="raça">
+
+                    <input type="checkbox" name="sem_raça" id="sem_raça">
+                    <label for="sem_raça">Sem raça definida</label>
+                </div>
+
+                <div class="campo">
+                    <span>Sexo:</span>
+                    <input type="radio" name="sexo" id="Macho" value="Macho" checked>
+                    <label for="Macho">Macho</label>
+                    <input type="radio" name="sexo" id="Fêmea" value="Fêmea">
+                    <label for="Fêmea">Fêmea</label>
+                </div>
+                <div class="campo">
+                    <label for="castrado">Castrado:</label>
+                    <input type="checkbox" name="castrado" id="castrado">
+                </div>
+                <hr>
+
+                <h3 id="proprietario">Dados do Proprietário</h3>
+
+                <div class="campo">
+                    <label for="dono">Nome do proprietário:</label>
+                    <input type="text" id="dono" name="dono" required>
+                </div>
+                <div class="campo">
+                    <label for="cpf">CPF:</label>
+                    <input type="text" name="cpf" \ pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" \ placeholder="xxx.xxx.xxx-xx"
+                        title="CPF no formato: xxx.xxx.xxx-xx">
+                </div>
+                <div class="campo">
+                    <label for="nascimento_dono">Data de nascimento:</label>
+                    <input type="date" name="nascimento_dono" id="nascimento_dono">
+                </div>
+
+                <div class="campo">
+                    <label for="celular">Celular:</label>
+                    <input type="tel" id="celular" name="celular"
+                        pattern="(\([0-9]{2}\))\s([0-9]{5})-([0-9]{4})" " placeholder=" (xx) xxxxx-xxxx"
+                        title="Número de celular no formato (99) 9999-9999" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+
+</html>
