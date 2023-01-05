@@ -15,12 +15,18 @@ body {
 
 #título {
     font-family: 'Merriweather', serif;
-    color: #e6c4d2;
+    color: #f7dee9;
     text-align: center;
     line-height: 1.2;
+    letter-spacing: 2px;
     margin-top: 2.5em;
     margin-bottom: 1.3em;
-}
+    text-shadow: 
+                 -1.4px -1.4px 0px #15011a, 
+                 -1.4px 1.4px 0px #15011a,                    
+                  1.4px -1.4px 0px #15011a,                  
+                  1.4px 0px 0px #15011a;
+  }
 
 h2 {
     font-weight: 400;
@@ -105,7 +111,7 @@ h3 {
 button {
         background-color: rgba(187, 70, 162, 0.8);
     color: #1f0711;
-    border: 2px solid;
+     border: 2px solid;
     border-radius: 8px;
     display: block;
     margin: 1.3em auto;
