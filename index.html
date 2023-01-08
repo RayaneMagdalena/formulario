@@ -27,7 +27,7 @@
                     <label for="animal">Nome do Pet:</label>
                     <input type="text" id="animal" name="animal" required>
                 </div>
-                
+
                 <div class="campo">
                     <label for="tipo">Tipo:</label>
                     <select name="tipo" id="tipo" required>
@@ -45,36 +45,52 @@
                 <div class="campo">
                     <label for="nascimento_pet">Data de nascimento:</label>
                     <input type="date" name="nascimento_pet" id="nascimento_pet" required>
-                </div class="campo">
+                </div>
 
-                <div class="campo">
+                <div id="porte" class="campo">
                     <span>Porte:</span>
-                    <input type="radio" name="porte" id="Pequeno" value="Pequeno" checked>
-                    <label for="Pequeno">Pequeno</label>
-                    <input type="radio" name="porte" id="Médio" value="Médio">
-                    <label for="Médio">Médio</label>
-                    <input type="radio" name="porte" id="Grande" value="Grande">
-                    <label for="Grande">Grande</label>
+                    <div class="radio">
+                        <input type="radio" name="porte" id="Pequeno" value="Pequeno" checked>
+                        <label for="Pequeno">Pequeno</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="porte" id="Médio" value="Médio">
+                        <label for="Médio">Médio</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="porte" id="Grande" value="Grande">
+                        <label for="Grande">Grande</label>
+                    </div>
                 </div>
 
-                <div class="campo">
-                    <label for="raça">Raça:</label>
-                    <input type="text" name="raça" id="raça">
+                <div id="raça" class="campo">
+                    <div>
+                        <label for="raça2">Raça:</label>
+                        <input type="text" name="raça" id="raça2">
+                    </div>
 
-                    <input type="checkbox" name="sem_raça" id="sem_raça">
-                    <label for="sem_raça">Sem raça definida</label>
+                    <div class="checkbox">
+                        <input type="checkbox" name="sem_raça" id="sem_raça">
+                        <label for="sem_raça">Sem raça definida</label>
+                    </div>
                 </div>
 
-                <div class="campo">
+                <div id="sexo" class="campo">
                     <span>Sexo:</span>
-                    <input type="radio" name="sexo" id="Macho" value="Macho" checked>
-                    <label for="Macho">Macho</label>
-                    <input type="radio" name="sexo" id="Fêmea" value="Fêmea">
-                    <label for="Fêmea">Fêmea</label>
+                    <div class="radio">
+                        <input type="radio" name="sexo" id="Macho" value="Macho" checked>
+                        <label for="Macho">Macho</label>
+                    </div>
+                    <div class="radio">
+                        <input type="radio" name="sexo" id="Fêmea" value="Fêmea">
+                        <label for="Fêmea">Fêmea</label>
+                    </div>
                 </div>
-                <div class="campo">
-                    <label for="castrado">Castrado:</label>
-                    <input type="checkbox" name="castrado" id="castrado">
+                <div id="castrado" class="campo">
+                                        <div class="checkbox">
+                        <label for="castrado2">Castrado:</label>
+                        <input type="checkbox" name="castrado" id="castrado2">
+                    </div>
                 </div>
                 <hr>
 

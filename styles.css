@@ -4,29 +4,30 @@
 }
 
 body {
-    /* display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
     background-image: url('https://st.depositphotos.com/58743146/59840/i/450/depositphotos_598401088-stock-photo-cartoon-doodle-animals-seamless-dogs.jpg');
-}
+ }
+
+
 
 /* Header */
 
 #título {
     font-family: 'Merriweather', serif;
-    color: #f7dee9;
-    text-align: center;
     line-height: 1.2;
     letter-spacing: 2px;
+    color: #f7dee9;
+
+    text-align: center;
+
     margin-top: 2.5em;
     margin-bottom: 1.3em;
-    text-shadow: 
-                 -1.4px -1.4px 0px #15011a, 
-                 -1.4px 1.4px 0px #15011a,                    
-                  1.4px -1.4px 0px #15011a,                  
-                  1.4px 0px 0px #15011a;
-  }
+
+    text-shadow:
+        -1.4px -1.4px 0px #15011a,
+        -1.4px 1.4px 0px #15011a,
+        1.4px -1.4px 0px #15011a,
+        1.4px 0px 0px #15011a;
+}
 
 h2 {
     font-weight: 400;
@@ -46,23 +47,29 @@ main {
 
 fieldset {
     background-color: #f7dee9;
-    margin: 1em 3em;
-    padding: 3em 0;
+
+    font-family: 'Roboto', sans-serif;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Roboto', sans-serif;
+
+    margin: 1em 3em;
+    padding: 3em 0;
+
     border: 2px solid;
     border-radius: 15px;
 }
 
 /* Subtítulo */
 h3 {
+    background-color: #e0c5d1;
+
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
+
     margin-bottom: 1.3em;
     padding: 0 9em;
-    background-color: #e0c5d1;
 }
 
 #proprietario {
@@ -73,8 +80,9 @@ h3 {
 
 .campo {
     margin-bottom: 1em;
-    display: block;
     padding: 0 5em;
+
+    display: block;
 }
 
 /* Input */
@@ -84,20 +92,23 @@ h3 {
 .campo input[type="email"],
 .campo input[type="date"],
 .campo select {
+    display: flex;
+
     width: 100%;
     height: 1em;
+
     border-radius: 5px;
     border: 1px solid;
     box-shadow: 0.2em 0.2em 0.2em #490b5f;
+
     margin-bottom: 1em;
     margin-top: 0.3em;
     padding: 2% 2%;
-    display: flex;
 }
 
 .campo select {
+    height: 2.3em;
     padding: 0 2%;
-        height: 2.3em;
 }
 
 
@@ -106,23 +117,102 @@ h3 {
     background-color: #e0c5d1;
 }
 
-/* Botão */
+/* radio */
+#porte,
+#sexo {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
 
+.radio input[type="radio"] {
+    appearance: none;
+
+    background-color: white;
+
+    border: 1px solid #000000;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50%;
+}
+
+.radio input[type="radio"]:checked {
+    background-image: radial-gradient(white 50%, #178128 35%);
+}
+
+.radio:not(:has(:checked)) {
+    opacity: .7;
+}
+
+/* checkbox */
+#raça,
+#castrado {
+    display: flex;
+    flex-direction: column;
+}
+
+#sem_raça {
+    padding: 0.5em;
+}
+
+#castrado2 {
+    padding: 0.4em;
+}
+
+.checkbox input[type="checkbox"] {
+    appearance: none;
+
+    background-color: #ffffff;
+
+    flex-shrink: 0;
+    width: 1em;
+    height: 1rem;
+
+    margin-right: 0.4em;
+
+    border: 1px solid #000000;
+    border-radius: .2rem;
+
+    position: relative;
+}
+
+.checkbox input[type="checkbox"]:checked::before {
+    content: "✓";
+    font-size: 1.2em;
+    color: #ffffff;
+
+    top: -0.3em;
+    left: 0.07em;
+    
+    position: absolute;
+}
+
+.checkbox input:checked {
+    background-color: #34a848;
+}
+
+/* Botão */
 button {
-        background-color: rgba(187, 70, 162, 0.8);
-    color: #1f0711;
-     border: 2px solid;
-    border-radius: 8px;
-    display: block;
-    margin: 1.3em auto;
-    padding: 0.6em 1.3em;
+    background-color: rgba(187, 70, 162, 0.8);
+
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 500;
+    color: #1f0711;
+
+    display: block;
+
+    margin: 1.3em auto;
+    padding: 0.6em 1.3em;
+
+    border: 2px solid;
+    border-radius: 8px;
+
     transition: color, border-color, box-shadow, transform;
 }
 
 button:hover {
+    background-color: rgb(187, 70, 162);
     border-color: #fae6ef;
     color: #f7dee9;
     transform: translateY(-0.25em);
