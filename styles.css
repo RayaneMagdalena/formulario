@@ -4,15 +4,21 @@
 }
 
 body {
-    background-image: url('https://st.depositphotos.com/58743146/59840/i/450/depositphotos_598401088-stock-photo-cartoon-doodle-animals-seamless-dogs.jpg');
- }
+    /* background-image: url('https://st.depositphotos.com/58743146/59840/i/450/depositphotos_598401088-stock-photo-cartoon-doodle-animals-seamless-dogs.jpg'); */
+background-image: url(https://i.pinimg.com/564x/75/10/99/751099bbbf3521a7318776a55a78cc76.jpg);
+
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+}
 
 /* Header */
 #título {
     font-family: 'Merriweather', serif;
+    font-size: 1.2em;
     line-height: 1.2;
     letter-spacing: 2px;
-    color: #f7dee9;
+    color:  #f7dee9;
 
     text-align: center;
 
@@ -20,10 +26,10 @@ body {
     margin-bottom: 1.3em;
 
     text-shadow:
-        -1.4px -1.4px 0px #15011a,
-        -1.4px 1.4px 0px #15011a,
-        1.4px -1.4px 0px #15011a,
-        1.4px 0px 0px #15011a;
+        -1.5px -1.5px 0px #15011a,
+        -1.5px 1.5px 0px #15011a,
+        1.5px -1.5px 0px #15011a,
+        1.5px 0px 0px #15011a;
 }
 
 h2 {
