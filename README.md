@@ -8,7 +8,7 @@
  <a href="#sobre">Sobre</a> •
  <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> • 
  <a href="#recursos">Recursos</a> • 
- <a href="#author">Author</a>  
+ <a href="#autora">Autora</a>  
 </p>
 
 ## Sobre 
@@ -50,7 +50,7 @@ O Projeto foi desenvolvido após as aulas de HTML e CSS do Bootcamp The Web Deve
 
 ---
 
-## Author
+## Autora
 
 <a href="https://www.linkedin.com/in/rayane-magdalena-473b83163/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/121320740?v=4" width="100px;" alt="Rayane Magdalena"/>
