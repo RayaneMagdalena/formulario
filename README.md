@@ -1,14 +1,14 @@
 <h1 align="center">🐾 Cadastro de Animais 🐾</h1>
 
 <h4 align="center"> 
-	 Status: Finished
+	 Status: Finalizado
 </h4>
 
 <p align="center">
- <a href="#sobre">Sobre</a> •
- <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> • 
- <a href="#recursos">Recursos</a> • 
- <a href="#autora">Autora</a>  
+ &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="#sobre">Sobre</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+ <a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#recursos">Recursos</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+ <a href="#autora">Autora</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
 
 ## Sobre 
@@ -20,9 +20,13 @@ O Projeto foi desenvolvido após as aulas de HTML e CSS do Bootcamp The Web Deve
 
 ## Tecnologias Utilizadas
 
-- <img align="center" alt="ana-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML
-- <img align="center" alt="ana-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> CSS
+- <img align="center" alt="Ray-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"> HTML
 
+- <img align="center" alt="Ray-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> CSS
+
+- <img align="center" alt="Ray-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"> GitHub
+
+- <img align="center" alt="Ray-GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> GIT
 ---			
 
 ## Recursos
@@ -62,6 +66,9 @@ O Projeto foi desenvolvido após as aulas de HTML e CSS do Bootcamp The Web Deve
 [![Gmail Badge](https://img.shields.io/badge/-rayanemagdalena@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:rayanemagdalena@gmail.com)](mailto:rayanemagdalena@gmail.com)
 
 ---			
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
               
        
              
