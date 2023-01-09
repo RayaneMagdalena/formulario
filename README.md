@@ -24,9 +24,10 @@ O Projeto foi desenvolvido após as aulas de HTML e CSS do Bootcamp The Web Deve
 
 - <img align="center" alt="Ray-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"> CSS
 
+- <img align="center" alt="Ray-GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> GIT
+
 - <img align="center" alt="Ray-GitHub" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg"> GitHub
 
-- <img align="center" alt="Ray-GIT" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg"> GIT
 ---			
 
 ## Recursos
